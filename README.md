@@ -15,8 +15,10 @@ This script converts PDF files to PNG images using Python. To run this script, y
 
 #### Windows
 
-1. Download the latest Poppler binary from [Poppler for Windows](http://blog.alivate.com.au/poppler-windows/).
-2. Extract the contents and add the `bin` folder to your system PATH.
+1. Install WSL ([Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)).
+2. Use Linux command on WSL to install poppler
+
+*NB*: On windows, you'll have to open WSL to run to run the file not cmd
 
 #### macOS
 
@@ -38,10 +40,10 @@ This script converts PDF files to PNG images using Python. To run this script, y
 2. Make sure you have all the prerequisites installed.
 3. Run the script by using the following command:
     ```sh
-    python pdf_to_png.py input.pdf output_folder
+    python3 main.py
     ```
 
 ### Example
 
 ```sh
-python pdf_to_png.py sample.pdf ./output
+python3 main.py
