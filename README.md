@@ -38,6 +38,7 @@ This script converts PDF files to PNG images using Python. To run this script, y
 
 1. Clone this repository or download the script.
 2. Make sure you have all the prerequisites installed.
+3. Create a folder named 'pdf' and put all the pdf files you want to convert to images
 3. Run the script by using the following command:
     ```sh
     python3 main.py
